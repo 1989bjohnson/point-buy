@@ -1,0 +1,41 @@
+{
+  "attributes": ["STR", "DEX", "CON", "INT", "WIS", "CHA"],
+  "races": [
+    {
+      "name": "Dragonborn",
+      "attributeMod": [2, 0, 0, 0, 0, 1]
+    },
+    {
+      "name": "Dwarf",
+      "attributeMod": [0, 0, 2, 0, 0, 0],
+      "subRace": [
+        {
+          "name": "Hill",
+          "attributeMod": [0, 0, 0, 0, 1, 0]
+        },
+        {
+          "name": "Mountain",
+          "attributeMod": [2, 0, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "name": "Elf",
+      "attributeMod": [0, 2, 0, 0, 0, 0],
+      "subRace": [
+        {
+          "name": "High",
+          "attributeMod": [0, 0, 0, 1, 0, 0]
+        },
+        {
+          "name": "Wood",
+          "attributeMod": [0, 0, 0, 0, 1, 0]
+        },
+        {
+          "name": "Dark",
+          "attributeMod": [2, 0, 0, 0, 0, 1]
+        }
+      ]
+    }
+  ]
+}
