@@ -1,3 +1,6 @@
+I'll make a real README later...
+This project is going to essentially be a copy of [This](https://chicken-dinner.com/5e/5e-point-buy.html), but done in react and react-boostrap
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
