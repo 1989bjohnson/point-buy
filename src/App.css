@@ -40,3 +40,8 @@
   padding-top: 5%;
   padding-bottom: 5%;
 }
+
+.btn-attribute {
+  width: 30px;
+  height: 30px;
+}

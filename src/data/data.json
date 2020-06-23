@@ -1,11 +1,11 @@
 {
   "attributes": ["STR", "DEX", "CON", "INT", "WIS", "CHA"],
-  "races": [
-    {
+  "races": {
+    "Dragonborn": {
       "name": "Dragonborn",
       "attributeMod": [2, 0, 0, 0, 0, 1]
     },
-    {
+    "Dwarf": {
       "name": "Dwarf",
       "attributeMod": [0, 0, 2, 0, 0, 0],
       "subRace": [
@@ -19,7 +19,7 @@
         }
       ]
     },
-    {
+    "Elf": {
       "name": "Elf",
       "attributeMod": [0, 2, 0, 0, 0, 0],
       "subRace": [
@@ -36,6 +36,52 @@
           "attributeMod": [2, 0, 0, 0, 0, 1]
         }
       ]
+    },
+    "Gnome": {
+      "name": "Gnome",
+      "attributeMod": [0, 0, 0, 2, 0, 0],
+      "subRace": [
+        {
+          "name": "Deep",
+          "attributeMod": [0, 1, 0, 0, 0, 0]
+        },
+        {
+          "name": "Rock",
+          "attributeMod": [0, 0, 1, 0, 0, 0]
+        }
+      ]
+    },
+    "Half-Elf": {
+      "name": "Half-Elf",
+      "attributeMod": [0, 0, 0, 0, 0, 2],
+      "variant": false
+    },
+    "Halfling": {
+      "name": "Halfling",
+      "attributeMod": [0, 2, 0, 0, 0, 0],
+      "subRace": [
+        {
+          "name": "Lightfoot",
+          "attributeMod": [0, 0, 0, 0, 0, 1]
+        },
+        {
+          "name": "Stout",
+          "attributeMod": [0, 1, 0, 0, 0, 0]
+        }
+      ]
+    },
+    "Half-Orc": {
+      "name": "Half-Orc",
+      "attributeMod": [2, 0, 1, 0, 0, 0]
+    },
+    "Human": {
+      "name": "Human",
+      "attributeMod": [1, 1, 1, 1, 1, 1],
+      "variant": false
+    },
+    "Tiefling": {
+      "name": "Tiefling",
+      "attributeMod": [0, 0, 0, 1, 0, 2]
     }
-  ]
+  }
 }
